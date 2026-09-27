@@ -15,6 +15,7 @@ export function Hero() {
             Wireless charging that{' '}
             <span className="text-g2v">flows both ways</span>.
           </h1>
+          <p className="font-mono text-sm uppercase tracking-widest text-g2v">A Wireless V2G and G2V · Now on GitHub</p>
           <p className="text-pretty text-lg leading-relaxed text-muted-foreground">{project.summary}</p>
           <div className="flex flex-wrap items-center gap-3">
             <ProjectLink />
